@@ -35,5 +35,5 @@ This needs to be automated so that the infrastructure can be discarded as soon a
 
 
 ### Solution
- #### Diagram
+ Load balancer url : http://udagr-Udagr-1HJWNME023FQM-219831418.us-east-1.elb.amazonaws.com
   

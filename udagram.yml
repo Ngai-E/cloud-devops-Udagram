@@ -221,7 +221,6 @@ Resources:
           echo "it works! Udagram, Udacity" > index.html
       ImageId: !Ref MachineId
       IamInstanceProfile: !Ref ProfileWithRolesForOurApp
-      KeyName: challenge
       SecurityGroups:
       - Ref: UdagramSecGroup
       InstanceType: t3.small

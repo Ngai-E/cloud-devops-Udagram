@@ -39,6 +39,6 @@ This needs to be automated so that the infrastructure can be discarded as soon a
   
 ### How to run script with AWS CLI
 Configure your aws IAM credentials in the commandline and run the following command;
-```aws cloudformation create-stack --stack-name challengeStack --template-body file://challenge-3.yml  --parameters file://challenge-3.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1```
+```aws cloudformation create-stack --stack-name challengeStack --template-body file://udagram.yml  --parameters file://udagram.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1```
 
 > you can change the region to suit you.
